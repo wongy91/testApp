@@ -3,12 +3,13 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.16'
 gem 'jquery-rails'
 
-group :production do
-  gem 'pg'
+group :development, :test do
+     gem 'sqlite3'
 end
 
-group :development, :test do
-  gem 'sqlite3'
+group :production do
+     gem 'pg'
+     gem 'rails_12factor'
 end
 
 group :assets do
@@ -18,5 +19,4 @@ group :assets do
   gem 'bootstrap-sass', 
     git: 'https://github.com/twbs/bootstrap-sass', 
     ref: '540ad23430b1bdb2c72591daf61507ec9e38e468'
-  gem 'rails_12factor'
 end
