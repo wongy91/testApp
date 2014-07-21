@@ -18,4 +18,5 @@ group :assets do
   gem 'bootstrap-sass', 
     git: 'https://github.com/twbs/bootstrap-sass', 
     ref: '540ad23430b1bdb2c72591daf61507ec9e38e468'
+  gem 'rails_12factor'
 end
