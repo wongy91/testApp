@@ -1,0 +1,27 @@
+/* You could change the font */
+/* $baseFontFamily: Oxygen;
+@import url(http://fonts.google.com/css?family=Oxygen);
+*/
+@import 'bootstrap';
+
+.btn-primary {
+	background-color: green;
+}
+
+.jumbotron {
+	background-color: #CCFFCC;
+}
+
+.navbar-header {
+	//@include box-shadow(none !important);
+	//border: 0;
+}
+
+.footer {
+	margin-top: 50px;
+	color: red;
+	a{
+		color: lightBlue;
+	}
+	
+}
